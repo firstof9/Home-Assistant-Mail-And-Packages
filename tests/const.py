@@ -3,11 +3,11 @@
 FAKE_CONFIG_DATA = {
     "amazon_fwds": '""',
     "folder": '"INBOX"',
-    "generate_mp4": false,
+    "generate_mp4": "false",
     "gif_duration": 5,
     "host": "imap.test.email",
     "image_path": "/config/www/mail_and_packages/",
-    "image_security": true,
+    "image_security": "true",
     "password": "suchfakemuchpassword",
     "port": 993,
     "resources": [
