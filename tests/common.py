@@ -2,7 +2,10 @@
 from custom_components.mail_and_packages.const import DOMAIN
 from pytest_homeassistant_custom_component.common import MockConfigEntry
 from pytest_homeassistant_custom_component.async_mock import Mock, patch
-from tests.const import FAKE_CONFIG_DATA, FAKE_UPDATE_DATA
+from custom_components.mail_and_packages.tests.const import (
+    FAKE_CONFIG_DATA,
+    FAKE_UPDATE_DATA,
+)
 
 
 async def setup_mnp(hass, fixture=None):
