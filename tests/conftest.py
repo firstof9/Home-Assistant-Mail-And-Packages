@@ -1,6 +1,6 @@
 """ Fixtures for Mail and Packages tests. """
 
-from .const import FAKE_UPDATE_DATA
+from tests.const import FAKE_UPDATE_DATA
 import pytest
 
 pytest_plugins = "pytest_homeassistant_custom_component"

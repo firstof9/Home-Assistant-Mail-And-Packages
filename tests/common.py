@@ -2,7 +2,7 @@
 from custom_components.mail_and_packages.const import DOMAIN
 from pytest_homeassistant_custom_component.common import MockConfigEntry
 from pytest_homeassistant_custom_component.async_mock import Mock, patch
-from .const import (
+from tests.const import (
     FAKE_CONFIG_DATA,
     FAKE_UPDATE_DATA,
 )

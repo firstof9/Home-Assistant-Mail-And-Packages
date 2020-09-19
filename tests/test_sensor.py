@@ -1,6 +1,6 @@
 """ Test Mail and Packages Sensor """
 from pytest_homeassistant_custom_component.common import MockConfigEntry
-from .common import setup_mnp
+from tests.common import setup_mnp
 
 
 async def test_sensor(hass, generic_data):
