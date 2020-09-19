@@ -44,7 +44,7 @@ FAKE_UPDATE_DATA = {
     "ups_delivered": 1,
     "ups_delivering": 1,
     "ups_packages": 1,
-    "ups_tracking": "1Z123456789"
+    "ups_tracking": "1Z123456789",
     "fedex_delivered": 0,
     "fedex_delivering": 2,
     "fedex_packages": 2,
