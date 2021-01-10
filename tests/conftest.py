@@ -1,5 +1,6 @@
 """ Fixtures for Mail and Packages tests. """
 import imaplib
+from unittest import mock
 from unittest.mock import patch
 from tests.const import FAKE_UPDATE_DATA
 
