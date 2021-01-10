@@ -2,7 +2,6 @@
 import imaplib
 from unittest.mock import patch
 from tests.const import FAKE_UPDATE_DATA
-from tests.helpers.aiohttp import mock_aiohttp_client  # noqa: E402, isort:skip
 
 import pytest
 
